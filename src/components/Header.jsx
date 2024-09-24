@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <nav className="flex justify-between items-center bg-white p-2.5 shadow-md rounded-t-md">
-      <h1 className="text-purple-shade-1 text-4xl text-shadow-without-hover font-bold p-2.5 ml-2.5 hover:text-shadow-on-hover">
+      <h1 className="text-purple-shade-1 text-4xl lg:text-5xl text-shadow-without-hover font-bold p-2.5 ml-2.5 hover:text-shadow-on-hover">
         <a href="#">Pate Pooja</a>
       </h1>
       <ul className="flex text-primary font-bold text-xl gap-10 p-2.5 mr-2.5">
@@ -29,14 +30,32 @@ function Header() {
               </svg>
             </a>
           </li> */}
-        <li className="hover:text-purple-shade-1">
-          <a href="#">Restaurants</a>
+        <li className="block md:hidden">
+          <button>
+            <svg
+              className="w-8 h-8"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
         </li>
-        <li className="hover:text-purple-shade-1">
-          <a href="#">Cart</a>
+        <li className="hidden md:block hover:text-purple-shade-1">
+          <Link to="/Menu">Menu</Link>
         </li>
-        <li className="hover:text-purple-shade-1">
-          <a href="#">Sign In</a>
+        <li className="hidden md:block hover:text-purple-shade-1">
+          <Link to="/">Cart</Link>
+        </li>
+        <li className="hidden md:block hover:text-purple-shade-1">
+          <Link to="/login">Sign In</Link>
         </li>
       </ul>
     </nav>

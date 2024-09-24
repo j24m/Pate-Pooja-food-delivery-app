@@ -1,21 +1,21 @@
 import Header from "../components/Header";
-import OnTheWay from "../assets/Take Away-amico.svg";
-import OrderFood from "../assets/Order food-amico.svg";
-import DoorStepDelivery from "../assets/Take Away-cuate.svg";
+import OnTheWay from "../assets/Take Away-amico.gif";
+import OrderFood from "../assets/Order food-amico.gif";
+import DoorStepDelivery from "../assets/Take Away-cuate.gif";
 import LandingPageSection from "../components/LandingPageSection";
 import Footer from "../components/Footer";
 
 function LandingPage() {
   let landingPageSectionData = [
     {
-      heading: "Find Favourite Restaurants and discover new ones from our App.",
+      heading: "Find favourite dishes and discover new ones from our App.",
       description:
-        "Pate Pooja is Raipur's best food delivery app with an amazing user experience.",
+        "Pate Pooja is one of the best restaurants in Raipur. Order Now! using our app which provides an amazing user experience.",
       linkText: "Explore",
       image: OrderFood,
     },
     {
-      heading: "Receive your food at your doorstep.",
+      heading: "Receive your food right at your doorstep.",
       description:
         "We will Deliver your food fresh and quick at your door step with our fast bike and feedback service.",
       image: DoorStepDelivery,

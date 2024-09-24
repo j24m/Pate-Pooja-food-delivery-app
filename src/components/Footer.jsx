@@ -1,67 +1,73 @@
 function Footer() {
   return (
     <footer className="bg-black p-5 rounded-b-md">
-      <div className="flex justify-evenly">
-        <div className="flex flex-col p-5">
-          <h3 className="text-lg mb-4 font-bold text-secondary">COMPANY</h3>
+      <div className="sm:flex sm:flex-row sm:justify-evenly flex flex-col items-center">
+        <div className="sm:flex sm:flex-col sm:items-start flex flex-col items-center p-5">
+          <h3 className="text-md sm:text-lg mb-4 font-bold text-secondary">
+            COMPANY
+          </h3>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             About us
           </a>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             Team
           </a>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             Careers
           </a>
         </div>
 
-        <div className="flex flex-col p-5">
-          <h3 className="text-lg mb-4 font-bold text-secondary">CONTACT</h3>
+        <div className="sm:flex sm:flex-col sm:items-start flex flex-col items-center p-5">
+          <h3 className="text-md sm:text-lg mb-4 font-bold text-secondary">
+            CONTACT
+          </h3>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             Help & Support
           </a>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             Partner with us
           </a>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             Ride with us
           </a>
         </div>
 
-        <div className="flex flex-col p-5">
-          <h3 className="text-lg mb-4 font-bold text-secondary">LEGAL</h3>
+        <div className="sm:flex sm:flex-col sm:items-start flex flex-col items-center p-5">
+          <h3 className="text-md sm:text-lg mb-4 font-bold text-secondary">
+            LEGAL
+          </h3>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             Terms & Conditions
           </a>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             Refund & Cancellation
           </a>
           <a
-            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 text-lg"
+            className="text-gray-shade-1 hover:text-gray-shade-2 my-2 md:text-lg text-md"
             href="#"
           >
             Privacy Policy
@@ -69,8 +75,8 @@ function Footer() {
         </div>
       </div>
       <hr />
-      <div className="text-white flex justify-between items-center">
-        <h3 className="text-gray-shade-1">
+      <div className="text-white md:flex md:flex-row md:justify-between md:items-center flex flex-col items-center">
+        <h3 className="p-2 text-gray-shade-1">
           <span>Designed and Developed by</span>
           <a
             className="ml-2 font-bold underline"

@@ -14,6 +14,12 @@ export default {
         "black-shade-2": "#1f1f1f",
         "black-shade-3": "#454141",
         "gray-shade-2": "#2f4f4f",
+        "green-shade-1": "#42b72a",
+        "green-shade-2": "#36a420",
+        "green-shade-3": "#2b9217",
+      },
+      fontSize: {
+        "22px": "22px",
       },
     },
   },
