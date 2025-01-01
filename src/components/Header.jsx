@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <nav className="flex justify-between items-center bg-white p-2.5 shadow-md rounded-t-md">
-      <h1 className="text-purple-shade-1 text-4xl lg:text-5xl text-shadow-without-hover font-bold p-2.5 ml-2.5 hover:text-shadow-on-hover">
+      <h1 className="text-purple-shade-1 text-3xl md:text-4xl lg:text-5xl text-shadow-without-hover font-bold p-2.5 ml-2.5 hover:text-shadow-on-hover">
         <a href="#">Pate Pooja</a>
       </h1>
       <ul className="flex text-primary font-bold text-xl gap-10 p-2.5 mr-2.5">

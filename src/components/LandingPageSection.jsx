@@ -1,9 +1,11 @@
 function LandingPageSection({ heading, description, linkText, image }) {
-  let layoutClass = linkText ? "" : "flex-row-reverse";
+  console.log("button present ?", linkText);
+  let layoutClass = linkText ? "flex-row" : "flex-row-reverse";
+  console.log("layout class", layoutClass);
   let addBgColorClass = linkText ? "bg-pink-shade-1" : "bg-secondary";
   return (
     <section
-      className={`p-5 flex flex-col-reverse justify-center items-center sm:flex sm:flex-row sm:justify-around sm:items-center sm:${layoutClass} ${addBgColorClass}`}
+      className={`flex flex-col-reverse justify-center items-center sm:${layoutClass} sm:justify-around sm:items-center  ${addBgColorClass} p-5`}
     >
       <section className="m-2.5 sm:w-1/3 flex flex-col gap-5 sm:items-start items-center">
         <h1 className="text-22px sm:text-2xl md:text-3xl lg:text-4xl font-bold">

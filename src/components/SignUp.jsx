@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+
 function SignUp() {
   return (
-    <div className="p-2 bg-primary md:w-1/2 w-full h-full flex flex-col justify-center items-center gap-2 md:rounded-r-full rounded-t-3xl">
+    <form className="p-2 bg-primary md:w-1/2 w-full h-full flex flex-col justify-center items-center gap-2 md:rounded-r-full rounded-t-3xl">
       <div className="hidden md:block text-center font-bold text-5xl">
         Sign up
       </div>
@@ -57,7 +58,7 @@ function SignUp() {
       >
         Already have an account ?
       </Link>
-    </div>
+    </form>
   );
 }
 

@@ -28,7 +28,7 @@ function LandingPage() {
     },
   ];
   return (
-    <div className="p-10 bg-primary">
+    <div className="p-5 sm:p-10 bg-primary">
       <Header />
       {landingPageSectionData.map((data, index) => {
         return (
